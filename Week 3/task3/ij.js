@@ -1,0 +1,10 @@
+const dishes = ["Tikki", "BHalla", "Jalebu","Bhature"];
+const num = [436369.333,325675.332,3456765432.22,3246922.33];
+console.log(num[1].toFixed(1));
+console.log(num[0].toExponential(0));
+dishes.pop();
+num.pop();
+console.log(dishes);
+console.log(num);
+console.log(num.length);
+console.log(dishes.length);

@@ -1,0 +1,15 @@
+let MS = "Ishita Joshi";
+console.log(MS);
+let gup_shup = MS.slice(0, 6);
+console.log(gup_shup);
+let tip_tip = MS.substr(6,11);
+console.log(tip_tip);
+let new_MS = "OMG! It's ";
+let  NNew_MS = new_MS.concat(new_MS, MS);
+console.log(NNew_MS);
+let F = NNew_MS.trimStart();
+console.log(F);
+let U = NNew_MS.toUpperCase();
+console.log(U);
+let L = NNew_MS.toLowerCase();
+console.log(L);
